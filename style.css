@@ -1,0 +1,44 @@
+/*Estilo del cuadrado de la calculadora*/
+.calculadora {
+  width: 300px;
+  height: 260px;
+  padding: 30px;
+  border: 3px solid #6e6e7193;
+  background-color: rgba(169, 169, 169, 0.566);
+  border-radius: 30px;
+  margin: 0 auto;
+}
+
+/*Estilo del visor de calculos*/
+.result {
+  width: 100%;
+  padding: 10px;
+  margin: 20px 0;
+  box-sizing: border-box;
+  font-size: 18px;
+  border: 1px solid #6e6e7193;
+  text-align: right;
+}
+
+/*Formato de las filas de botones*/
+.number-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+/*Formato de los botones*/
+button {
+  width: 40px;
+  height: 30px;
+  background-color: rgb(243, 250, 250);
+  border-radius: 5px;
+  border: 1px solid #6e6e7193;
+  flex: 1;
+}
+
+/*Cuando nos posicionamos sobre los botones se cambia una manito*/
+button:hover {
+  cursor: pointer;
+}
